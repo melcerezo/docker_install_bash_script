@@ -34,7 +34,7 @@ sudo curl -L \
 -o /usr/local/bin/docker-compose
 
 # apply executable permission
-sudo chmod =x /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
 
 # adds user to the group called docker
 sudo usermod -aG docker $USER
